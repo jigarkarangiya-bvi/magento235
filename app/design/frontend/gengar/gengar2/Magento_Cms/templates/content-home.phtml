@@ -1,0 +1,44 @@
+
+<div class="main-container">
+	
+	<div class="container-inner">
+		<div class="ma-banner7">
+				<div class="banner-box2">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Bannerslider\Block\Bannerslider')->setTemplate('Plazathemes_Bannerslider::bannerslider.phtml')->toHtml();?>
+				</div>
+				<div class="banner-box3">
+					<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('static_banner_home2')->toHtml(); ?>
+				</div>
+		</div>
+		<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('corporate_about2')->toHtml(); ?>
+		<div class="row">
+			<div class="col-sm-6">
+				<?php echo $block->getLayout()->createBlock('Plazathemes\Pricecountdown\Block\Pricecountdown')->setTemplate('Plazathemes_Pricecountdown::saleslider.phtml')->toHtml();?>
+			</div>
+			<div class="col-sm-6">
+				<?php echo $block->getLayout()->createBlock('Plazathemes\Newproductslider\Block\Newproductslider')->setTemplate('Plazathemes_Newproductslider::newproductslider.phtml')->toHtml();?>
+			</div>
+		</div>
+		
+		<div class="block-feature">
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('img2_home')->toHtml(); ?>
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Featureproductslider\Block\Featureproductslider')->setTemplate('Plazathemes_Featureproductslider::featureproductslider.phtml')->toHtml();?>
+		</div>
+		<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_conten_home2')->toHtml(); ?>
+		<div class="ctegory1">
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('products_categorytab1_home2')->toHtml(); ?>
+		</div>	
+		<div class="ctegory2">
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('products_categorytab2_home2')->toHtml(); ?>
+		</div>
+
+		<?php echo $block->getLayout()->createBlock('Plazathemes\Recentproductslider\Block\Products')->setTemplate('Plazathemes_Recentproductslider::productslider.phtml')->toHtml();?>
+	</div>
+	<div class="ma-brandslider">
+		<div class="container-inner">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Brandslider\Block\Brandslider')->setTemplate('Plazathemes_Brandslider::brandslider.phtml')->toHtml();?>
+		</div>
+	</div>
+</div>
+
+

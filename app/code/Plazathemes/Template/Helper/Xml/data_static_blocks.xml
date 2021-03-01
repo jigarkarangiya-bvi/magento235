@@ -1,0 +1,665 @@
+<?xml version="1.0"?>
+<gengar>
+    <blocks>
+	
+		<block>
+            <title>Contact us</title>
+            <identifier>contact_us</identifier>
+            <content>
+                    <![CDATA[
+						<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215%3A0xcba0af2dfe02048f!2s101+California+Street%2C+San+Francisco%2C+CA+94111%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" width="100%" height="350"></iframe></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                    <![CDATA[
+						<div class="footer-static row">
+						<div class="col-sm-3">
+						<p><img src="{{media url="wysiwyg/logo_footer.png"}}" alt="" /></p>
+						<p class="text">We are a team of designers and developers that create high quality Magento, Prestashop, Opencart.</p>
+						<div class="contact">
+						<h4>Contact info:</h4>
+						<p>169-C, Technohub, Dubai Silicon Oasis.</p>
+						<div class="link-follow"><a class="twitter fa fa-twitter" title="Twitter" href="https://twitter.com/plazathemes"><span>twitter</span></a> <a class="google fa fa-google-plus" title="Google" href="#"><span>google </span></a> <a class="facebook fa fa-facebook" title="Facebook" href="https://www.facebook.com/plazathemes1"><span>facebook</span></a> <a class="youtube fa fa-youtube" title="Youtube" href="https://www.youtube.com/user/plazathemes"><span>youtube </span></a> <a class="rss fa fa-rss" href="#"><span>rss</span></a></div>
+						</div>
+						</div>
+						<div class="col-sm-3">
+						<h3 class="title">Information</h3>
+						<ul>
+						<li><a href="#">Specials</a></li>
+						<li><a href="#">New products</a></li>
+						<li><a href="#">Top sellers</a></li>
+						<li><a href="#">Our stores</a></li>
+						</ul>
+						</div>
+						<div class="col-sm-3">
+						<h3 class="title">My account</h3>
+						<ul>
+						<li><a href="#">My orders</a></li>
+						<li><a href="#">My credit slips</a></li>
+						<li><a href="#">My addresses</a></li>
+						<li><a href="#">My personal info</a></li>
+						</ul>
+						</div>
+						<div class="col-sm-3">
+						<h3 class="title">Customer service</h3>
+						<ul>
+						<li class="first"><a href="#">Site Map</a></li>
+						<li><a href="#">Specials</a></li>
+						<li><a href="#">Returns</a></li>
+						<li><a href="#">Order History</a></li>
+						<li class="last"><a href="http://192.168.1.45/ma_estore/english1/customer/account/login/">My Account</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Menu Links</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+                    <![CDATA[
+						<div class="pt_menu_link pt_menu">
+						<div class="parentMenu">
+						<ul class="mobilemenu">
+						<li><a href="http://www.plazathemes.com/">all stores</a></li>
+						<li><a href="{{store url="contact"}}">Contact Us</a></li>
+						<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+						</ul>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Header Support</title>
+            <identifier>header_support</identifier>
+            <content>
+                    <![CDATA[
+						<p class="icon"><i class="ion-android-call">icon</i></p>
+						<p>Free support call:<strong>+88 123 456 7899</strong></p>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Block Payments</title>
+            <identifier>block_payments</identifier>
+            <content>
+                    <![CDATA[
+						<p><img src="{{media url="wysiwyg/payment.png"}}" alt="" /></p>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Corporate About</title>
+            <identifier>corporate_about</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-info">
+						<div class="row">
+						<div class="col-sm-4">
+						<div class="info info1"><em class="ion-android-call"></em>
+						<div class="static_info">
+						<h4>888 345 6789</h4>
+						<p>Free support line!</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-sm-4">
+						<div class="info info2"><em class="ion-help-buoy"></em>
+						<div class="static_info">
+						<h4>Support@plazathemes.com</h4>
+						<p>Orders Support!</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-sm-4">
+						<div class="info info3"><em class="ion-android-time"></em>
+						<div class="static_info">
+						<h4>Mon - Fri / 8:00 - 18:00</h4>
+						<p>Working Days/Hours!</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Corporate About 2</title>
+            <identifier>corporate_about2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="static-info2">
+						<div class="row">
+						<div class="col-sm-4">
+						<div class="info info1"><em class="ion-ios-paperplane"></em>
+						<div class="static_info">
+						<h4>Free Shipping</h4>
+						<p>Free delivery on all orders over $99!</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-sm-4">
+						<div class="info info2"><em class="ion-social-usd"></em>
+						<div class="static_info">
+						<h4>FREE RETURN</h4>
+						<p>30 days money back guarantee!</p>
+						</div>
+						</div>
+						</div>
+						<div class="col-sm-4">
+						<div class="info info3"><em class="ion-help-buoy"></em>
+						<div class="static_info">
+						<h4>online SUPPORT 24/7</h4>
+						<p>We support online 24 hours a day</p>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Banner Home1</title>
+            <identifier>banner_home1</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_home.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab1 Home</title>
+            <identifier>products_categorytab1_home</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Hand Tools" identify="63522323" category_id="145,146,147" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab2 Home</title>
+            <identifier>products_categorytab2_home</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Tool Storage" identify="3263523323" category_id="148,149,209" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Img2 Home</title>
+            <identifier>img2_home</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_home.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static banner home2</title>
+            <identifier>static_banner_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_home2.jpg"}}" alt="" /></a></div>
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_home2.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner conten home2</title>
+            <identifier>banner_conten_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img3_home2.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab1 Home2</title>
+            <identifier>products_categorytab1_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Woodworking Tools" identify="63522323" category_id="145,146,147" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab2 Home2</title>
+            <identifier>products_categorytab2_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Tool Storage" identify="3263523323" category_id="148,149,209" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		
+		<block>
+            <title>Header Support 3</title>
+            <identifier>header_support3</identifier>
+            <content>
+                    <![CDATA[
+						<p class="icon"><i class="ion-paper-airplane">icon</i></p>
+						<p>Free Shipping<strong>On all orders over $99</strong></p>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		
+		<block>
+            <title>Header Support2</title>
+            <identifier>header_support2</identifier>
+            <content>
+                    <![CDATA[
+						<p><i class="ion-android-call"></i>+88 123 456 7899</p>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Img Bottom</title>
+            <identifier>img_bottom</identifier>
+            <content>
+                    <![CDATA[
+						<div class="img-bottom">
+						<div class="box1">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/ca1_bottom.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box2">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/ca2_bottom.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>img bottom home2</title>
+            <identifier>img_bottom_home2</identifier>
+            <content>
+                    <![CDATA[
+						<div class="img-bottom">
+						<div class="box1">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/ca1_bottom2.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box2">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/ca2_bottom2.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static banner home3</title>
+            <identifier>static_banner_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_home3.jpg"}}" alt="" /></a></div>
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_home3.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner conten home3</title>
+            <identifier>banner_conten_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img3_home3.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab1 Home3</title>
+            <identifier>products_categorytab1_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Woodworking Tools" identify="63522323" category_id="145,146,147" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab2 Home3</title>
+            <identifier>products_categorytab2_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Tool Storage" identify="3263523323" category_id="148,149,209" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab3 Home3</title>
+            <identifier>products_categorytab3_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Power Saws" identify="64522323" category_id="147,146,209" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>img bottom home3</title>
+            <identifier>img_bottom_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div class="img-bottom">
+						<div class="box1">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_bottom_home3.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box2">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_bottom_home3.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box3">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img3_bottom_home3.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box4">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img4_bottom_home3.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner home4</title>
+            <identifier>banner_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_banner_home4.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab1 Home4</title>
+            <identifier>products_categorytab1_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Hottest Toys" identify="3263323" category_id="5,3,4" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab2 Home4</title>
+            <identifier>products_categorytab2_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Wooden Toys" identify="3264323" category_id="72,73,74" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>img bottom home4</title>
+            <identifier>img_bottom_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="img-bottom">
+						<div class="box1">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_bottom_home4.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box2">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_bottom_home4.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>img2 home4</title>
+            <identifier>img2_home4</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_home4.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static banner home5</title>
+            <identifier>static_banner_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_banner_home5.jpg"}}" alt="" /></a></div>
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_banner_home5.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Img2 Home5</title>
+            <identifier>img2_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_home5.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner conten home5</title>
+            <identifier>banner_conten_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img_banner_home5.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab1 Home5</title>
+            <identifier>products_categorytab1_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Hottest Toys" identify="3263323" category_id="5,3,4" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab2 Home5</title>
+            <identifier>products_categorytab2_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Wooden Toys" identify="3264323" category_id="72,73,74" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>img bottom home5</title>
+            <identifier>img_bottom_home5</identifier>
+            <content>
+                    <![CDATA[
+						<div class="img-bottom">
+						<div class="box1">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_bottom_home5.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box2">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_bottom_home5.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>static banner home6</title>
+            <identifier>static_banner_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_home6.jpg"}}" alt="" /></a></div>
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_home6.jpg"}}" alt="" /></a></div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab1 Home6</title>
+            <identifier>products_categorytab1_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Hottest Toys" identify="3263323" category_id="5,3,4" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab2 Home6</title>
+            <identifier>products_categorytab2_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Wooden Toys" identify="3264323" category_id="72,73,74" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>products categorytab3 home6</title>
+            <identifier>products_categorytab3_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Plush Toys" identify="3466323" category_id="64,67" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>Products Categorytab4 Home6</title>
+            <identifier>products_categorytab4_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Baby Clothing" identify="3964323" category_id="65,70,71" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>img bottom home6</title>
+            <identifier>img_bottom_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="img-bottom">
+						<div class="box1">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img1_bottom_home6.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box2">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img2_bottom_home6.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box3">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img3_bottom_home6.jpg"}}" alt="" /></a></div>
+						</div>
+						<div class="box4">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/img4_bottom_home6.jpg"}}" alt="" /></a></div>
+						</div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+		<block>
+            <title>banner conten home6</title>
+            <identifier>banner_conten_home6</identifier>
+            <content>
+                    <![CDATA[
+						<div class="banner-home">
+						<div class="banner-box"><a href="#"><img src="{{media url="wysiwyg/baner6_home6.jpg"}}" alt="" /></a></div>
+						</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Products Categorytab4 Home3</title>
+            <identifier>products_categorytab4_home3</identifier>
+            <content>
+                    <![CDATA[
+						<div>{{widget type="Plazathemes\Categorytab\Block\CateWidget" title="Woodworking" identify="65522323" category_id="150,212" items_default="3" items_desktop="3" items_desktop_small="3" items_tablet="2" items_mobile="1" show_addtocart="1" show_wishlist="1" show_compare="1" row_show="1" show_pager="1" template="categorytab/grid.phtml" page_var_name="pimstf"}}</div>
+					]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+	
+    </blocks>
+</gengar>
+

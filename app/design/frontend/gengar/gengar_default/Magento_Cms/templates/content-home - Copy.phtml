@@ -1,0 +1,49 @@
+
+
+<div class="main-container col2-left-layout">
+	<div class="row">
+		
+		<div class="col-main col-sm-9">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Bannerslider\Block\Bannerslider')->setTemplate('Plazathemes_Bannerslider::bannerslider.phtml')->toHtml();?>
+			
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_home1')->toHtml(); ?>
+			
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('categorytab_products')->toHtml(); ?>
+
+			<div class="custom-block text-center">
+				<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('custum_block')->toHtml(); ?>
+			</div>
+			
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Producttab\Block\Producttab')->setTemplate('Plazathemes_Producttab::producttab.phtml')->toHtml();?>
+			
+			
+			
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_home2')->toHtml(); ?>
+			
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Newproductslider\Block\Newproductslider')->setTemplate('Plazathemes_Newproductslider::newproductslider.phtml')->toHtml();?> 
+			
+			
+			<?php echo $block->getLayout()->createBlock('Magento\Newsletter\Block\Subscribe')->setTemplate('Magento_Newsletter::subscribe.phtml')->toHtml();?>
+			
+			<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('categorytab_products2')->toHtml(); ?>
+		</div>
+		
+		<div class="col-left col-sm-3">
+		
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Hozmegamenu\Block\Menu')->setTemplate('Plazathemes_Hozmegamenu::verticalmegamenu.phtml')->toHtml();?>
+			
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Featureproductslider\Block\Featureproductslider')->setTemplate('Plazathemes_Featureproductslider::featureproductslider.phtml')->toHtml();?>
+			
+			<div class="banner_home_index">
+				<?php  echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_home_index')->toHtml(); ?>
+			</div>
+			
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Recentproductslider\Block\Products')->setTemplate('Plazathemes_Recentproductslider::productslider.phtml')->toHtml();?>
+			
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Bestsellerproduct\Block\Bestsellerproduct')->setTemplate('Plazathemes_Bestsellerproduct::bestsellerproduct.phtml')->toHtml();?>
+			
+		</div>
+	</div>
+</div>
+
+
